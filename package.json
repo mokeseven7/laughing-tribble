@@ -1,5 +1,5 @@
 {
-  "name": "serverless-fatfree",
+  "name": "@gamestonk/serverless-fatfree",
   "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,6 +20,27 @@
     "@aws-cdk/core": "1.89.0"
   },
   "dependencies": {
+    "12": "^1.0.2",
+    "@aws-cdk/aws-apigatewayv2": "^1.89.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "^1.89.0",
+    "@aws-cdk/aws-lambda": "^1.89.0",
+    "@aws-cdk/aws-rds": "^1.89.0",
+    "@aws-cdk/aws-secretsmanager": "^1.89.0",
     "@aws-cdk/core": "1.89.0"
-  }
+  },
+  "description": "You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`ServerlessFatfree`) which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokeseven7/laughing-tribble.git"
+  },
+  "author": "Michael McGrath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mokeseven7/laughing-tribble/issues"
+  },
+  "homepage": "https://github.com/mokeseven7/laughing-tribble#readme"
 }
